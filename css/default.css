@@ -19,8 +19,7 @@ h2 {
   text-align: center;
 }
 
-span,
-p {
+span {
   line-height: 18px;
   margin-bottom: 12px;
 }
@@ -57,8 +56,11 @@ footer {
   justify-content: center;
 }
 
-.intro {
+.intro,
+.intro > p {
   padding: 5px;
+  width: 666px;
+  margin: 0 auto;
   font-size: 18pt;
   font-weight: 100;
   line-height: 30px;
@@ -88,11 +90,11 @@ footer {
 }
 
 .nav {
+  position: fixed;
   height: 100px;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.0);
-  position: absolute;
   z-index: 100;
 }
 
@@ -187,6 +189,7 @@ footer {
 }
 
 .footer-text {
+  line-height: 1.6;
   max-width: 90%;
   font-size: 12pt;
   text-align: center;
@@ -194,8 +197,8 @@ footer {
 }
 
 .center-content {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 24px;
   margin: 0 auto;
   max-width: 1000px;
   padding-bottom: 150px;
@@ -209,7 +212,6 @@ footer {
 }
 
 .center-text {
-  line-height: 26px;
   border-bottom: 1px solid #9e9e94;
   text-align: left;
   margin-bottom: 15px;
@@ -398,16 +400,26 @@ img {
   font-weight: lighter;
 }
 
-.blog {
-  text-align: left;
+.blog h3
+.blog h1 {
+  text-align: center;
+}
+
+.blog-post-body {
+    width: 666px;
+    margin: 0 auto;
 }
 
 .blog-post-body img {
-  max-width: 75%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 0 auto;
+    width: 60%;
   display: block;
 }
 
 .blog-post-body>p {
+  text-align: left;
   display: flex;
   justify-content: center;
 }
