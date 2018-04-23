@@ -59,7 +59,7 @@ footer {
 .intro,
 .intro > p {
   padding: 5px;
-  width: 666px;
+  width: 66%;
   margin: 0 auto;
   font-size: 18pt;
   font-weight: 100;
@@ -406,7 +406,7 @@ img {
 }
 
 .blog-post-body {
-    width: 666px;
+    width: 66%;
     margin: 0 auto;
 }
 
@@ -446,12 +446,22 @@ img {
     padding: 0px;
   }
 
+  .intro,
+  .intro > p {
+      width: 95%;
+      margin: 0 auto;
+  }
+
   .center-content {
     width: 85%;
   }
 
   .blog-post {
     flex-direction: column;
+  }
+
+  .blog-post-body {
+      width: 95%;
   }
 
   .blog-post>* {
