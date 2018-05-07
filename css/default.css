@@ -443,6 +443,7 @@ img {
   .right,
   .left-reverse,
   .right-reverse {
+    margin: 0 auto;
     padding: 0px;
   }
 
@@ -470,6 +471,17 @@ img {
 
   .nav {
     position: fixed;
+  }
+
+  .tours-tape {
+    max-width: 40%;
+  }
+
+  .dropdown-menu {
+    width: 150px;
+    font-size: 20px;
+    top: 50px;
+    line-height: 12px;
   }
 
   .tours-tape {
